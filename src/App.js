@@ -1,5 +1,9 @@
 import React from "react";
+
 // COMPONENT IMPORTS
+import Landing from "./components/Landing";
+import AffiliateStores from "./components/AffiliateStores";
+import WhyEcocart from "./components/WhyEcocart";
 import ImpactBox from "./components/ImpactBox";
 import FaqBox from "./components/Faq";
 import useSticky from "./hooks/useSticky";
@@ -8,8 +12,8 @@ import Testimonial from "./components/Testimonial";
 import Video from "./components/Video";
 import ProjectBox from "./components/ProjectBox";
 import Button from "react-bootstrap/Button";
+
 //MEDIA IMPORTS
-import avatar from "./img/avatar.jpg";
 import works from "./videos/works.mp4";
 import tree from "./img/tree.png";
 import earth from "./img/earth.png";
@@ -30,48 +34,31 @@ import goldStandard from "./img/projects/gold-standard.png";
 import StarIcon from "mdi-react/StarIcon"; //https://www.npmjs.com/package/mdi-react
 import logo from "./img/logo.png";
 
+// STATIC IMPORTS
+import reviews from "./static/reviews";
+import faqs from "./static/faqs";
+
 import "./App.css";
 
-function App() {
+const App = () => {
   const { isSticky, element } = useSticky();
+
   return (
     <div className="App">
       <Navbar sticky={isSticky} />
-      <section id="landing">
-        <div ref={element}>
-          <img src={logo} alt="EcoCart" id="logo" />
-          <div id="content">
-            <h1>Click Button. Save Planet.</h1>
-            <h3>
-              EcoCart instantly makes your online orders carbon neutral at no
-              cost to you
-            </h3>
-            <Button className="add-button" size="lg">
-              <b>Add to Chrome</b> - It's Free
-            </Button>
-          </div>
-          <a href="#how-it-works">
-            <div className="scroll-down"></div>
-          </a>
-        </div>
-      </section>
-      <section id="affiliate-stores">
-        <h1 id="affiliate-title">
-          Shop Sustainably at <br></br>10,000+ stores!
-        </h1>
-      </section>
+      <Landing ref={element} logo={logo} />
+      <AffiliateStores />
       <section id="how-it-works">
         <Video video={works} stepOne="1" stepTwo="4" stepThree="10"></Video>
       </section>
-      <section id="why-ecocart">
-        <h1>Why EcoCart?</h1>
-      </section>
+      <WhyEcocart />
 
+      {/* Impact section */}
       <section id="impact">
         <h1 className="center">EcoCart community impact</h1>
         <div className="impact-box-container">
           <ImpactBox
-          start={0}
+            start={0}
             count={3123477}
             duration={4}
             subtitle={
@@ -83,7 +70,7 @@ function App() {
           ></ImpactBox>
           <div class="spacer"></div>
           <ImpactBox
-          start={0}
+            start={0}
             count={6247}
             duration={3}
             subtitle="trees saved"
@@ -96,6 +83,7 @@ function App() {
           </h2>
         </div>
 
+        {/* Projects EcoCart is involved with */}
         <div className="project-boxes">
           <ProjectBox
             projectImg={forestProj}
@@ -138,6 +126,7 @@ function App() {
         </div>
       </section>
 
+      {/* Review from customers */}
       <section id="testimonials">
         <h1>See why people love us</h1>
         <StarIcon size={40} />
@@ -145,86 +134,25 @@ function App() {
         <StarIcon size={40} />
         <StarIcon size={40} />
         <StarIcon size={40} />
-
-        <i></i>
-        <Testimonial
-          reviews={[
-            {
-              avatar: avatar,
-              quote:
-                "Fighting climate change while shopping at my favorite stores? Sign me up!",
-              author: "Dane Baker",
-            },
-            {
-              avatar: avatar,
-              quote:
-                "Fighting climate change while shopping at my favorite stores? Sign me up!",
-              author: "Dane Baker",
-            },
-            {
-              avatar: avatar,
-              quote:
-                "Fighting climate change while shopping at my favorite stores? Sign me up!",
-              author: "Dane Baker",
-            },
-            {
-              avatar: avatar,
-              quote:
-                "Fighting climate change while shopping at my favorite stores? Sign me up!",
-              author: "Dane Baker",
-            },
-            {
-              avatar: avatar,
-              quote:
-                "Fighting climate change while shopping at my favorite stores? Sign me up!",
-              author: "Dane Baker",
-            },
-            {
-              avatar: avatar,
-              quote:
-                "Fighting climate change while shopping at my favorite stores? Sign me up!",
-              author: "Dane Baker",
-            },
-          ]}
-        ></Testimonial>
+        {/* <i></i> */}
+        <Testimonial reviews={reviews}></Testimonial>
       </section>
+
+      {/* Frequently asked questions section */}
       <section id="questions">
         <div class="container">
           <h1>Questions?</h1>
         </div>
-        <FaqBox
-          faqs={[
-            {
-              title: "What on Earth is a carbon offset?",
-              content: `Carbon offsets are a practical and effective way to reduce the effects of climate change by funding wind, solar, and other renewable energy projects.`,
-            },
-            {
-              title: "Free carbon neutral orders? Sounds too good to be true.",
-              content: `Carbon offsets are a practical and effective way to reduce the effects of climate change by funding wind, solar, and other renewable energy projects.`,
-            },
-            {
-              title:
-                "How do I know the donations are going to the right place?",
-              content: `Carbon offsets are a practical and effective way to reduce the effects of climate change by funding wind, solar, and other renewable energy projects.`,
-            },
-            {
-              title: "Do you sell my data?",
-              content: `Carbon offsets are a practical and effective way to reduce the effects of climate change by funding wind, solar, and other renewable energy projects.`,
-            },
-            {
-              title: "How can I find stores that support sustainable shopping?",
-              content: `Carbon offsets are a practical and effective way to reduce the effects of climate change by funding wind, solar, and other renewable energy projects.`,
-            },
-          ]}
-        ></FaqBox>
+        <FaqBox faqs={faqs}></FaqBox>
         <br></br>
         <div class="container">
           <a href="https://www.google.com/">More FAQs</a>
         </div>
       </section>
+
       <section id="bottom">
         <h1>
-          Ready to start <br></br>shopping sustainably?
+          Ready to start <br></br> shopping sustainably?
         </h1>
         <Button className="add-button" size="lg">
           <b>Add to Chrome</b> - It's Free
@@ -232,6 +160,6 @@ function App() {
       </section>
     </div>
   );
-}
+};
 
 export default App;

@@ -1,14 +1,20 @@
 .navbar {
-    padding: 0.5rem;
+    padding: 10px 50px;
     position: absolute;
     z-index: 1000;
     width: 100%;
 }
+
 .navbar--logo-holder {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+}
+
+.nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar-sticky {
@@ -25,11 +31,12 @@
     font-size: 1em;
     padding: 1em;
     margin-left: 60vw;
+    height: 9vh;
 }
 
 .navbar--logo {
-    width: 200px;
-    height: auto;
+    width: 220px;
+    height: 4vh;
 }
 
 @keyframes moveDown {
@@ -38,5 +45,11 @@
     }
     to {
         transform: translateY(0rem);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar {
+        padding: 15px;
     }
 }

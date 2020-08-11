@@ -1,0 +1,46 @@
+/* WHY ECOCART SECTION */
+#why-ecocart {
+  background-color: #EAF6FA;
+  height: 68vh;
+  text-align: center;
+  padding: 5vh 0;
+}
+
+.reason-container {
+  display: flex;
+  justify-content: center;
+}
+
+.reason {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vh 10vh;
+}
+
+.reason-icon {
+  height: 200px;
+  width: 200px;
+}
+
+.reason-title {
+  margin: 13px;
+}
+
+.reason-description {
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 400px) {
+  #why-ecocart {
+    height: auto;
+  }
+
+  .reason-container {
+    flex-direction: column;
+  }
+
+  .reason {
+    margin: 10px;
+  }
+}
