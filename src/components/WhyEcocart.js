@@ -1,6 +1,10 @@
 import React from "react";
 
 import tree from "../img/tree.png";
+import rewards from "../img/rewards.svg";
+import data from "../img/data.svg";
+import control from "../img/control.svg";
+
 import "../stylesheets/WhyEcocart.css";
 
 const WhyEcocart = () => {
@@ -9,7 +13,7 @@ const WhyEcocart = () => {
       <h1>Why EcoCart?</h1>
       <div className="reason-container">
         <div className="reason">
-          <img src={tree} className="reason-icon"></img>
+          <img src={rewards} className="reason-icon"></img>
           <h2 className="reason-title">Rewards You'll Love</h2>
           <p className="reason-description">
             Fight climate change and earn gift <br></br> cards to your favorite
@@ -17,7 +21,7 @@ const WhyEcocart = () => {
           </p>
         </div>
         <div className="reason">
-          <img src={tree} className="reason-icon"></img>
+          <img src={data} className="reason-icon"></img>
           <h2 className="reason-title">We Don't Sell Your Data</h2>
           <p className="reason-description">
             We're in the business of saving the <br></br> planet, not violating
@@ -25,7 +29,7 @@ const WhyEcocart = () => {
           </p>
         </div>
         <div className="reason">
-          <img src={tree} className="reason-icon"></img>
+          <img src={control} className="reason-icon control-icon"></img>
           <h2 className="reason-title">You're in Control</h2>
           <p className="reason-description">
             Support the project that inspires you <br></br> most.

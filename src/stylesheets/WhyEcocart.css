@@ -1,4 +1,3 @@
-/* WHY ECOCART SECTION */
 #why-ecocart {
   background-color: #EAF6FA;
   height: 68vh;
@@ -19,8 +18,13 @@
 }
 
 .reason-icon {
-  height: 200px;
-  width: 200px;
+  height: 120px;
+  width: 120px;
+}
+
+.control-icon {
+  height: 100px;
+  margin-top: 20px;
 }
 
 .reason-title {
@@ -31,6 +35,7 @@
   font-weight: 500;
 }
 
+/* Mobile styles */
 @media only screen and (max-width: 400px) {
   #why-ecocart {
     height: auto;
@@ -42,5 +47,9 @@
 
   .reason {
     margin: 10px;
+  }
+
+  .control-icon {
+    margin-top: 0px;
   }
 }

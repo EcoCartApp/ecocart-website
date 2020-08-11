@@ -1,6 +1,84 @@
 #affiliate-stores {
-  background-color: #EAF6FA;
-  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  background-color: #EAF6FA;
+  height: 80vh;
   padding: 5vh 0;
+}
+
+/* Store image sizes */
+.store-lg {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+}
+
+.store-md {
+  position: absolute;
+  height: 75px;
+  width: 75px;
+}
+
+
+/* Store positioning */
+#nike {
+  bottom: -200px;
+  left: 300px;
+}
+
+#flowers {
+  bottom: -300px;
+  left: 250px;
+}
+
+#colehaan {
+  bottom: -380px;
+  left: 340px;
+}
+
+#overstock {
+  bottom: -500px;
+  left: 220px;
+}
+
+#microsoft {
+  bottom: -550px;
+  left: 350px;
+}
+
+#expedia {
+  bottom: -200px;
+  left: 1100px;
+}
+
+#glossier {
+  bottom: -300px;
+  left: 1150px;
+}
+
+#bloomingdale {
+  bottom: -380px;
+  left: 1050px;
+}
+
+#samsung {
+  bottom: -480px;
+  left: 1160px;
+}
+
+#jcpenney {
+  bottom: -550px;
+  left: 1030px;
+}
+
+@media only screen and (max-width: 400px) {
+  .store-lg {
+    display: none;
+  }
+
+  .store-md {
+    display: none;
+  }
 }
