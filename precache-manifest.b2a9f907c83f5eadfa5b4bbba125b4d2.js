@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "363a24239124aa4ca0565222dd46aa20",
+    "revision": "b267ffc5240ae06d9024633f7d3ecb75",
     "url": "/ecocart-website/index.html"
   },
   {
-    "revision": "d6d533260443b30ebf1e",
+    "revision": "6391177d81888e864d29",
     "url": "/ecocart-website/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "7709d09723ad99e820d0",
-    "url": "/ecocart-website/static/css/main.1d49e9b5.chunk.css"
+    "revision": "5807b4722f3a58dccfd9",
+    "url": "/ecocart-website/static/css/main.8054bac6.chunk.css"
   },
   {
-    "revision": "d6d533260443b30ebf1e",
-    "url": "/ecocart-website/static/js/2.af2ce61f.chunk.js"
+    "revision": "6391177d81888e864d29",
+    "url": "/ecocart-website/static/js/2.f5392577.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/ecocart-website/static/js/2.af2ce61f.chunk.js.LICENSE.txt"
+    "url": "/ecocart-website/static/js/2.f5392577.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7709d09723ad99e820d0",
-    "url": "/ecocart-website/static/js/main.b96bf56e.chunk.js"
+    "revision": "5807b4722f3a58dccfd9",
+    "url": "/ecocart-website/static/js/main.fe4f002b.chunk.js"
   },
   {
     "revision": "bef4e03ae3890871b29a",
@@ -52,12 +52,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecocart-website/static/media/american-carbon-registry.6680f5f7.jpg"
   },
   {
+    "revision": "1eba6b27d80ee90f94316454fde9b65f",
+    "url": "/ecocart-website/static/media/bloomingdale.1eba6b27.png"
+  },
+  {
+    "revision": "2dcbb7713002931cb7dfed4601fdceb5",
+    "url": "/ecocart-website/static/media/colehaan.2dcbb771.png"
+  },
+  {
+    "revision": "f3f4153078085ae13c0540e80b95407b",
+    "url": "/ecocart-website/static/media/control.f3f41530.svg"
+  },
+  {
+    "revision": "5a4f5875f969ebed878a6488a7e90779",
+    "url": "/ecocart-website/static/media/data.5a4f5875.svg"
+  },
+  {
     "revision": "d17a0e8bb65e2f2b764bdc19201a3e2d",
     "url": "/ecocart-website/static/media/earth.d17a0e8b.png"
   },
   {
+    "revision": "e989af19af04658104a7642432df1cc8",
+    "url": "/ecocart-website/static/media/expedia.e989af19.png"
+  },
+  {
+    "revision": "401191239256602687278e14c23bdc06",
+    "url": "/ecocart-website/static/media/flowers.40119123.png"
+  },
+  {
     "revision": "5452cdd051fc99a4335bf69f1da6b20f",
     "url": "/ecocart-website/static/media/forest-project.5452cdd0.png"
+  },
+  {
+    "revision": "aec033cec95a8c148f0d3c44a3225643",
+    "url": "/ecocart-website/static/media/glossier.aec033ce.png"
   },
   {
     "revision": "99b0e4e73bad882238b9accef2ef7435",
@@ -68,8 +96,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecocart-website/static/media/hero.1031e29c.png"
   },
   {
+    "revision": "23d140d0c4b8f46c0dee963763bf6859",
+    "url": "/ecocart-website/static/media/jcpenney.23d140d0.png"
+  },
+  {
     "revision": "a435fd687a9a5a05c7911c2e71359da6",
     "url": "/ecocart-website/static/media/logo.a435fd68.png"
+  },
+  {
+    "revision": "33f662261538c49a03cb8567bf53e49e",
+    "url": "/ecocart-website/static/media/microsoft.33f66226.png"
+  },
+  {
+    "revision": "52c7e2f99159169a3d2a4b34fc47de6a",
+    "url": "/ecocart-website/static/media/nike.52c7e2f9.png"
+  },
+  {
+    "revision": "a12eb7504dd64b12a8ea09b9bd7b89e4",
+    "url": "/ecocart-website/static/media/overstock.a12eb750.png"
+  },
+  {
+    "revision": "e6fa3092c26fa18657d11d2cc226db84",
+    "url": "/ecocart-website/static/media/rewards.e6fa3092.svg"
+  },
+  {
+    "revision": "756606c3779cfa8099d03cddda82f698",
+    "url": "/ecocart-website/static/media/samsung.756606c3.png"
   },
   {
     "revision": "e2b2395a1dc832a64325094859660b3e",
