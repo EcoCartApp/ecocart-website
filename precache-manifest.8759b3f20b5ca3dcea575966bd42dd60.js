@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14ab99d4485327d2921484252baba5ab",
+    "revision": "96471fc612b1471efb83819dd8299b9c",
     "url": "/ecocart-website/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecocart-website/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "40cbc1fb5fb3b926e29d",
-    "url": "/ecocart-website/static/css/main.b88cbefd.chunk.css"
+    "revision": "420c8e0e4119fa5e0fbb",
+    "url": "/ecocart-website/static/css/main.5ed82e77.chunk.css"
   },
   {
     "revision": "92f174eb436c4684cb73",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecocart-website/static/js/2.de37c996.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "40cbc1fb5fb3b926e29d",
+    "revision": "420c8e0e4119fa5e0fbb",
     "url": "/ecocart-website/static/js/main.5c6a4c53.chunk.js"
   },
   {
