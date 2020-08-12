@@ -42,3 +42,7 @@
   height: 12vh;
   opacity: 1;
 }
+
+.row {
+  width: 100%;
+}

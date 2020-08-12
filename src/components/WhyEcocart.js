@@ -12,7 +12,7 @@ const WhyEcocart = () => {
       <h1>Why EcoCart?</h1>
       <div className="reason-container">
         <div className="reason">
-          <img src={rewards} className="reason-icon"></img>
+          <img src={rewards} className="reason-icon" alt="reason icon"></img>
           <h2 className="reason-title">Rewards You'll Love</h2>
           <p className="reason-description">
             Fight climate change and earn gift <br></br> cards to your favorite
@@ -28,7 +28,7 @@ const WhyEcocart = () => {
           </p>
         </div>
         <div className="reason">
-          <img src={control} className="reason-icon control-icon"></img>
+          <img src={control} className="reason-icon control-icon" alt="reason icon"></img>
           <h2 className="reason-title">You're in Control</h2>
           <p className="reason-description">
             Support the project that inspires you <br></br> most.

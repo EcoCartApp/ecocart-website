@@ -1,61 +1,61 @@
 .navbar {
-    padding: 10px 50px;
-    position: absolute;
-    z-index: 1000;
-    width: 100%;
+  padding: 10px 50px;
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
 }
 
 .navbar--logo-holder {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .nav-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar-sticky {
-    background: rgba(255, 255, 255, 0.9);
-    position: fixed;
-    top: 0;
-    left: 0;
-    animation: moveDown 0.5s ease-in-out;
+  background: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation: moveDown 0.5s ease-in-out;
 }
 
 .navbar-button {
-    background-color: #00B04F;
-    border-color: #00B04F;
-    font-size: 1em;
-    padding: 1em;
-    margin-left: 60vw;
-    height: 9vh;
+  background-color: #00b04f;
+  border-color: #00b04f;
+  font-size: 1em;
+  padding: 1em;
+  margin-left: 60vw;
+  height: 9vh;
 }
 
 .navbar-button:hover {
-    background-color: #ffffff;
-    border-color: #00B04F;
-    color: #00B04F;
-  }
+  background-color: #ffffff;
+  border-color: #00b04f;
+  color: #00b04f;
+}
 
 .navbar--logo {
-    width: 220px;
-    height: 4vh;
+  width: 220px;
+  height: 4vh;
 }
 
 @keyframes moveDown {
-    from {
-        transform: translateY(-5rem);
-    }
-    to {
-        transform: translateY(0rem);
-    }
+  from {
+    transform: translateY(-5rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
 }
 
 @media only screen and (max-width: 400px) {
-    .navbar {
-        padding: 15px;
-    }
+  .navbar {
+    padding: 15px;
+  }
 }
