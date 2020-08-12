@@ -1,6 +1,5 @@
 import React from "react";
 
-import tree from "../img/tree.png";
 import rewards from "../img/rewards.svg";
 import data from "../img/data.svg";
 import control from "../img/control.svg";
@@ -21,7 +20,7 @@ const WhyEcocart = () => {
           </p>
         </div>
         <div className="reason">
-          <img src={data} className="reason-icon"></img>
+          <img src={data} className="reason-icon" alt="reason icon"></img>
           <h2 className="reason-title">We Don't Sell Your Data</h2>
           <p className="reason-description">
             We're in the business of saving the <br></br> planet, not violating

@@ -73,6 +73,7 @@
   left: 1030px;
 }
 
+/* Phone styles */
 @media only screen and (max-width: 400px) {
   .store-lg {
     display: none;
@@ -80,5 +81,164 @@
 
   .store-md {
     display: none;
+  }
+}
+
+/* 1024 x 768 styles */
+@media only screen and (min-width: 400px) and (max-width: 1030px) {
+  #nike {
+    bottom: -200px;
+    left: 105px;
+  }
+  
+  #flowers {
+    bottom: -300px;
+    left: 55px;
+  }
+  
+  #colehaan {
+    bottom: -380px;
+    left: 145px;
+  }
+  
+  #overstock {
+    bottom: -500px;
+    left: 25px;
+  }
+  
+  #microsoft {
+    bottom: -550px;
+    left: 155px;
+  }
+  
+  #expedia {
+    bottom: -200px;
+    left: 830px;
+  }
+  
+  #glossier {
+    bottom: -300px;
+    left: 890px;
+  }
+  
+  #bloomingdale {
+    bottom: -380px;
+    left: 820px;
+  }
+  
+  #samsung {
+    bottom: -480px;
+    left: 890px;
+  }
+  
+  #jcpenney {
+    bottom: -550px;
+    left: 860px;
+  }
+}
+
+/* 1280 x 800 styles */
+@media only screen and (min-width: 1030px) and  (max-width: 1300px) {
+  #nike {
+    bottom: -200px;
+    left: 220px;
+  }
+  
+  #flowers {
+    bottom: -300px;
+    left: 170px;
+  }
+  
+  #colehaan {
+    bottom: -380px;
+    left: 260px;
+  }
+  
+  #overstock {
+    bottom: -500px;
+    left: 140px;
+  }
+  
+  #microsoft {
+    bottom: -550px;
+    left: 270px;
+  }
+  
+  #expedia {
+    bottom: -200px;
+    left: 1000px;
+  }
+  
+  #glossier {
+    bottom: -300px;
+    left: 1060px;
+  }
+  
+  #bloomingdale {
+    bottom: -380px;
+    left: 960px;
+  }
+  
+  #samsung {
+    bottom: -480px;
+    left: 1060px;
+  }
+  
+  #jcpenney {
+    bottom: -550px;
+    left: 930px;
+  }
+}
+
+/* 1920 x 1080 styles */
+@media only screen and (min-width: 1800px ) and (max-width: 2000px) {
+  #nike {
+    bottom: -300px;
+    left: 520px;
+  }
+  
+  #flowers {
+    bottom: -400px;
+    left: 470px;
+  }
+  
+  #colehaan {
+    bottom: -480px;
+    left: 560px;
+  }
+  
+  #overstock {
+    bottom: -600px;
+    left: 440px;
+  }
+  
+  #microsoft {
+    bottom: -650px;
+    left: 570px;
+  }
+  
+  #expedia {
+    bottom: -300px;
+    left: 1300px;
+  }
+  
+  #glossier {
+    bottom: -400px;
+    left: 1360px;
+  }
+  
+  #bloomingdale {
+    bottom: -480px;
+    left: 1260px;
+  }
+  
+  #samsung {
+    bottom: -580px;
+    left: 1360px;
+  }
+  
+  #jcpenney {
+    bottom: -650px;
+    left: 1320px;
   }
 }
