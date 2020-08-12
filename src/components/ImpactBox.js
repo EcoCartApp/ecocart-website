@@ -23,6 +23,7 @@ export default class ImpactBox extends Component {
               end={this.props.count}
               delay={0.2}
               redraw={false}
+              separator=","
               duration={this.props.duration}
               onEnd={() => {
                 this.setState({ start: this.props.count });

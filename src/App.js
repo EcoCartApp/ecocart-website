@@ -59,7 +59,7 @@ const App = () => {
         <div className="impact-box-container">
           <ImpactBox
             start={0}
-            count={3123477}
+            count={4123477}
             duration={4}
             subtitle={
               <>
@@ -71,7 +71,7 @@ const App = () => {
           <div class="spacer"></div>
           <ImpactBox
             start={0}
-            count={6247}
+            count={8247}
             duration={3}
             subtitle="trees saved"
             icon={tree}
