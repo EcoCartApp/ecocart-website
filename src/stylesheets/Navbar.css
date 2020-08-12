@@ -26,6 +26,8 @@
 }
 
 .navbar-button {
+  color: white;
+  text-decoration: none;
   background-color: #00b04f;
   border-color: #00b04f;
   font-size: 1em;
@@ -35,7 +37,8 @@
   width: 250px;
 }
 
-.navbar-button:hover {
+.navbar-button:hover,
+.navbar-button:focus {
   background-color: #ffffff;
   border-color: #00b04f;
   color: #00b04f;

@@ -13,9 +13,14 @@ const Landing = React.forwardRef((props, ref) => {
             EcoCart instantly makes your online orders carbon neutral at no cost
             to you
           </h3>
-          <Button className="add-button" size="lg">
+          <a
+            className="btn add-button"
+            size="lg"
+            href="https://google.com"
+            target="_blank"
+          >
             <b>Add to Chrome</b> - It's Free
-          </Button>
+          </a>
         </div>
         <a href="#how-it-works">
           <div className="scroll-down"></div>
