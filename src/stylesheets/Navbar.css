@@ -12,8 +12,8 @@
 }
 
 .nav-row {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -30,8 +30,9 @@
   border-color: #00b04f;
   font-size: 1em;
   padding: 1em;
-  margin-left: 60vw;
-  height: 9vh;
+  margin-left: auto;
+  height: 60px;
+  width: 250px;
 }
 
 .navbar-button:hover {
@@ -41,8 +42,7 @@
 }
 
 .navbar--logo {
-  width: 220px;
-  height: 4vh;
+  width: 15%;
 }
 
 @keyframes moveDown {
@@ -59,3 +59,15 @@
     padding: 15px;
   }
 }
+
+/* @media only screen and (min-width: 1030px) and (max-width: 1300px) {
+  .navbar-button {
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 2000px) {
+  .navbar-button {
+    width: 250px;
+  }
+} */
