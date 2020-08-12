@@ -6,7 +6,7 @@ function useSticky() {
 
   //change where navbar appears here
   const handleScroll = () => {
-    window.scrollY > element.current.getBoundingClientRect().bottom + 500
+    window.scrollY > element.current.getBoundingClientRect().bottom
       ? setSticky(true)
       : setSticky(false)
   }
