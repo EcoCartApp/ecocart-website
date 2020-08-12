@@ -15,7 +15,7 @@ const WhyEcocart = () => {
           <img src={rewards} className="reason-icon" alt="reason icon"></img>
           <h2 className="reason-title">Rewards You'll Love</h2>
           <p className="reason-description">
-            Fight climate change and earn gift <br></br> cards to your favorite
+            Fight climate change and earn gift <br className="line-break"></br> cards to your favorite
             stores.
           </p>
         </div>
@@ -23,7 +23,7 @@ const WhyEcocart = () => {
           <img src={data} className="reason-icon" alt="reason icon"></img>
           <h2 className="reason-title">We Don't Sell Your Data</h2>
           <p className="reason-description">
-            We're in the business of saving the <br></br> planet, not violating
+            We're in the business of saving the <br className="line-break"></br> planet, not violating
             your privacy.
           </p>
         </div>
@@ -31,7 +31,7 @@ const WhyEcocart = () => {
           <img src={control} className="reason-icon control-icon" alt="reason icon"></img>
           <h2 className="reason-title">You're in Control</h2>
           <p className="reason-description">
-            Support the project that inspires you <br></br> most.
+            Support the project that inspires you <br className="line-break"></br> most.
           </p>
         </div>
       </div>
