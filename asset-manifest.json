@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ecocart-website/static/css/main.4940b0b6.chunk.css",
-    "main.js": "/ecocart-website/static/js/main.ef89a3f6.chunk.js",
-    "main.js.map": "/ecocart-website/static/js/main.ef89a3f6.chunk.js.map",
+    "main.js": "/ecocart-website/static/js/main.ae279adb.chunk.js",
+    "main.js.map": "/ecocart-website/static/js/main.ae279adb.chunk.js.map",
     "runtime-main.js": "/ecocart-website/static/js/runtime-main.04f7c4e9.js",
     "runtime-main.js.map": "/ecocart-website/static/js/runtime-main.04f7c4e9.js.map",
     "static/css/2.829c9cb5.chunk.css": "/ecocart-website/static/css/2.829c9cb5.chunk.css",
     "static/js/2.05380ea6.chunk.js": "/ecocart-website/static/js/2.05380ea6.chunk.js",
     "static/js/2.05380ea6.chunk.js.map": "/ecocart-website/static/js/2.05380ea6.chunk.js.map",
     "index.html": "/ecocart-website/index.html",
-    "precache-manifest.457ede290cd62a31b146d7c1df4afb4f.js": "/ecocart-website/precache-manifest.457ede290cd62a31b146d7c1df4afb4f.js",
+    "precache-manifest.dd4d5c09e77dd455f9c254ba9b285758.js": "/ecocart-website/precache-manifest.dd4d5c09e77dd455f9c254ba9b285758.js",
     "service-worker.js": "/ecocart-website/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/ecocart-website/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.4940b0b6.chunk.css.map": "/ecocart-website/static/css/main.4940b0b6.chunk.css.map",
@@ -49,6 +49,6 @@
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.05380ea6.chunk.js",
     "static/css/main.4940b0b6.chunk.css",
-    "static/js/main.ef89a3f6.chunk.js"
+    "static/js/main.ae279adb.chunk.js"
   ]
 }
