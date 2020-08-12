@@ -56,7 +56,7 @@ export default class Video extends Component {
   render() {
     return (
       <div id="video-component">
-        <div>
+        <div className="video-container">
           <ReactPlayer
             ref={this.ref}
             url={this.props.video}
@@ -64,13 +64,14 @@ export default class Video extends Component {
             loop={true}
             muted={true}
             progressInterval={1000}
+            width="100%"
+            height="100%"
             onProgress={this.handleProgress}
           />
         </div>
 
-        <div>
+        <div style={{display: "flex", flexDirection: "column", justifyContent: "center", marginLeft: "35px", width: "100%"}}>
           <h1 id="title"> How it works</h1>
-
           <div id="steps">
             <div
               className="row step"
@@ -86,7 +87,7 @@ export default class Video extends Component {
                   this.state.activeStep === 1 ? "step-content-active" : ""
                 }`}
               >
-                <h3>1. Add in Seconds</h3>
+                <h3><strong>1. Add in Seconds</strong></h3>
                 <p>It's free and just takes 2 clicks.</p>
               </div>
             </div>
@@ -104,8 +105,8 @@ export default class Video extends Component {
                   this.state.activeStep === 2 ? "step-content-active" : ""
                 }`}
               >
-                <h3>2. Shop like Normal</h3>
-                <p>We'll find the carbon emissions of your unique order.</p>
+                <h3><strong>2. Shop like Normal</strong></h3>
+                <p>We'll find the carbon emissions <br></br> of your unique order.</p>
               </div>
             </div>
             <div
@@ -122,9 +123,9 @@ export default class Video extends Component {
                   this.state.activeStep === 3 ? "step-content-active" : ""
                 }`}
               >
-                <h3>3. Save the Planet</h3>
+                <h3><strong>3. Save the Planet</strong></h3>
                 <p>
-                  At no cost to you, we'll make sure your orders are completely
+                  At no cost to you, we'll make sure your <br></br> orders are completely
                   carbon neutral.
                 </p>
               </div>

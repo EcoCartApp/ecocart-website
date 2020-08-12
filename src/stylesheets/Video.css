@@ -1,53 +1,44 @@
 #video-component {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
 }
 #title {
-    padding-bottom: 5vh;
+  padding-bottom: 5vh;
 }
 
 .step:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .line {
-    width: 2em;
-    border-left: 3px solid #EFEFEF;
-    height: 10vh;
-    padding-right: 1em;
+  width: 2em;
+  border-left: 3px solid #efefef;
+  height: 14vh;
+  padding-right: 3em;
 }
 
 .line-active {
-    width: 2em;
-    border-left: 3px solid green;
-    height: 10vh;
-    padding-right: 1em;
+  width: 2em;
+  border-left: 3px solid green;
+  height: 14vh;
+  padding-right: 3em;
 }
 
 .line-container {
-    height: 10vh;
+  height: 12vh;
 }
 
 #steps {
-    margin-left: 1.1vw;
+  margin-left: 1.1vw;
 }
 
 .step-content {
-    opacity: 0.6;
+  height: 12vh;
+  opacity: 0.6;
 }
 
 .step-content-active {
-    opacity: 1;
-}
-
-.step-one {
-    margin-top: 0.1vh;
-}
-
-.step-two {
-    margin-top: 1.5vh;
-}
-
-.step-three {
-    margin-top: 2.5vh;
+  height: 12vh;
+  opacity: 1;
 }

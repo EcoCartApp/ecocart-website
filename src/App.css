@@ -17,6 +17,8 @@ html {
 /* HOW IT WORKS SECTION */
 
 #how-it-works {
+  display: flex;
+  justify-content: center;
   height: auto;
   padding: 5vh 0;
 }
