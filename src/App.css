@@ -3,7 +3,7 @@
   margin-right: 0px;
 } */
 a {
-  color: #00B04F;
+  color: #00b04f;
   text-decoration: underline;
 }
 
@@ -27,12 +27,12 @@ html {
 #impact {
   background-color: #ffffff;
   height: auto;
-  padding: 5vh 0;
+  padding: 8vh 0;
 }
 
 .impact-box-container {
-  padding-top: 3vh;
-  padding-bottom: 5vh;
+  padding-top: 8vh;
+  padding-bottom: 10vh;
   display: flex;
   justify-content: center;
 }
@@ -41,22 +41,23 @@ html {
   width: 8vw;
 }
 .impact-subtitle-container {
-  padding-bottom: 5vh;
+  padding-bottom: 8vh;
 }
 .impact-sub-heading {
-  width: 100%; 
-  border-bottom: 1px solid #000; 
+  width: 100%;
+  border-bottom: 1px solid #000;
   line-height: 0.1em;
-} 
+}
 
-.impact-sub-heading span { 
-   background:#fff; 
-   padding:0 10px; 
+.impact-sub-heading span {
+  font-weight: 500;
+  background: #fff;
+  padding: 0 30px;
 }
 
 .project-boxes {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 /* TESTIMONIAL SECTION */
@@ -64,10 +65,9 @@ html {
 #testimonials {
   padding: 5vh 0;
   text-align: center;
-  background-color: #EAF6FA;
+  background-color: #eaf6fa;
   height: auto;
 }
-
 
 /* QUESTIONS SECTION */
 
@@ -84,28 +84,28 @@ html {
 
 #bottom {
   height: auto;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
   text-align: center;
-  background-color: #EFEFEF;
+  background-color: #efefef;
 }
 
 /* TEXT STYLING */
 
 h1 {
-  color: #0C3C2A;
+  color: #0c3c2a;
   font-weight: 700;
   font-size: 3em;
 }
 
 h2 {
-  color: #0C3C2A;
+  color: #0c3c2a;
   font-weight: 700;
   font-size: 1.8em;
 }
 
 h3 {
-  color: #0C3C2A;
+  color: #0c3c2a;
   font-size: 1.2em;
 }
 
@@ -124,7 +124,7 @@ h3 {
   }
 }
 
-@media only screen and (min-width: 1600px ) and (max-width: 2000px) {
+@media only screen and (min-width: 1600px) and (max-width: 2000px) {
   h1 {
     font-size: 4em;
   }

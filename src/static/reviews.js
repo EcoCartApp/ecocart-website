@@ -1,41 +1,41 @@
 // Contains all the reviews in the "See why people love us"
 // section of the page
 
-import avatar from "../img/avatar.jpg";
+import Dane from "../img/dane.jfif";
 
 const reviews = [
   {
-    avatar: avatar,
+    avatar: Dane,
     quote:
       "Fighting climate change while shopping at my favorite stores? Sign me up!",
     author: "Dane Baker",
   },
   {
-    avatar: avatar,
+    avatar: Dane,
     quote:
       "Fighting climate change while shopping at my favorite stores? Sign me up!",
     author: "Dane Baker",
   },
   {
-    avatar: avatar,
+    avatar: Dane,
     quote:
       "Fighting climate change while shopping at my favorite stores? Sign me up!",
     author: "Dane Baker",
   },
   {
-    avatar: avatar,
+    avatar: Dane,
     quote:
       "Fighting climate change while shopping at my favorite stores? Sign me up!",
     author: "Dane Baker",
   },
   {
-    avatar: avatar,
+    avatar: Dane,
     quote:
       "Fighting climate change while shopping at my favorite stores? Sign me up!",
     author: "Dane Baker",
   },
   {
-    avatar: avatar,
+    avatar: Dane,
     quote:
       "Fighting climate change while shopping at my favorite stores? Sign me up!",
     author: "Dane Baker",

@@ -16,7 +16,7 @@ export default class ImpactBox extends Component {
     return (
       <div className="box">
         <img src={this.props.icon} id="icon" alt="impact logo"></img>
-        <div className="center impact-text">
+        <div className="impact-text">
           <h2 id="count">
             <CountUp
               start={this.state.start}

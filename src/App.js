@@ -128,12 +128,12 @@ const App = () => {
 
       {/* Review from customers */}
       <section id="testimonials">
-        <h1>See why people love us</h1>
-        <StarIcon size={40} />
-        <StarIcon size={40} />
-        <StarIcon size={40} />
-        <StarIcon size={40} />
-        <StarIcon size={40} />
+        <h1 className="mb-3">See why people love us</h1>
+        <StarIcon size={38} color="rgb(12, 60, 42)" />
+        <StarIcon size={38} color="rgb(12, 60, 42)" />
+        <StarIcon size={38} color="rgb(12, 60, 42)" />
+        <StarIcon size={38} color="rgb(12, 60, 42)" />
+        <StarIcon size={38} color="rgb(12, 60, 42)" />
         {/* <i></i> */}
         <Testimonial reviews={reviews}></Testimonial>
       </section>
@@ -146,12 +146,14 @@ const App = () => {
         <FaqBox faqs={faqs}></FaqBox>
         <br></br>
         <div class="container">
-          <a href="https://www.google.com/">More FAQs</a>
+          <a href="https://ecocart.io/faq/" target="_blank">
+            <b>More FAQs</b>
+          </a>
         </div>
       </section>
 
       <section id="bottom">
-        <h1>
+        <h1 style={{marginBottom: "3vh"}}>
           Ready to start <br></br> shopping sustainably?
         </h1>
         <Button className="add-button" size="lg">
