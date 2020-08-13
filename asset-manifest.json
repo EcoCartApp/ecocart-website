@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ecocart-website/static/css/main.4940b0b6.chunk.css",
-    "main.js": "/ecocart-website/static/js/main.ae279adb.chunk.js",
-    "main.js.map": "/ecocart-website/static/js/main.ae279adb.chunk.js.map",
+    "main.css": "/ecocart-website/static/css/main.07c2df69.chunk.css",
+    "main.js": "/ecocart-website/static/js/main.80e29794.chunk.js",
+    "main.js.map": "/ecocart-website/static/js/main.80e29794.chunk.js.map",
     "runtime-main.js": "/ecocart-website/static/js/runtime-main.04f7c4e9.js",
     "runtime-main.js.map": "/ecocart-website/static/js/runtime-main.04f7c4e9.js.map",
     "static/css/2.829c9cb5.chunk.css": "/ecocart-website/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.05380ea6.chunk.js": "/ecocart-website/static/js/2.05380ea6.chunk.js",
-    "static/js/2.05380ea6.chunk.js.map": "/ecocart-website/static/js/2.05380ea6.chunk.js.map",
+    "static/js/2.73d20682.chunk.js": "/ecocart-website/static/js/2.73d20682.chunk.js",
+    "static/js/2.73d20682.chunk.js.map": "/ecocart-website/static/js/2.73d20682.chunk.js.map",
     "index.html": "/ecocart-website/index.html",
-    "precache-manifest.dd4d5c09e77dd455f9c254ba9b285758.js": "/ecocart-website/precache-manifest.dd4d5c09e77dd455f9c254ba9b285758.js",
+    "precache-manifest.d1ce9c9545a25ae1fd88993403f30d0c.js": "/ecocart-website/precache-manifest.d1ce9c9545a25ae1fd88993403f30d0c.js",
     "service-worker.js": "/ecocart-website/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/ecocart-website/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.4940b0b6.chunk.css.map": "/ecocart-website/static/css/main.4940b0b6.chunk.css.map",
-    "static/js/2.05380ea6.chunk.js.LICENSE.txt": "/ecocart-website/static/js/2.05380ea6.chunk.js.LICENSE.txt",
+    "static/css/main.07c2df69.chunk.css.map": "/ecocart-website/static/css/main.07c2df69.chunk.css.map",
+    "static/js/2.73d20682.chunk.js.LICENSE.txt": "/ecocart-website/static/js/2.73d20682.chunk.js.LICENSE.txt",
     "static/media/UN-Sustainability-Goal-13.png": "/ecocart-website/static/media/UN-Sustainability-Goal-13.c0f2f644.png",
     "static/media/UN-Sustainability-Goal-14.png": "/ecocart-website/static/media/UN-Sustainability-Goal-14.7c2299b6.png",
     "static/media/UN-Sustainability-Goal-15.png": "/ecocart-website/static/media/UN-Sustainability-Goal-15.ecc0cbba.png",
@@ -23,6 +23,7 @@
     "static/media/bloomingdale.png": "/ecocart-website/static/media/bloomingdale.1eba6b27.png",
     "static/media/colehaan.png": "/ecocart-website/static/media/colehaan.2dcbb771.png",
     "static/media/control.svg": "/ecocart-website/static/media/control.f3f41530.svg",
+    "static/media/dane.jfif": "/ecocart-website/static/media/dane.0d2c2233.jfif",
     "static/media/data.svg": "/ecocart-website/static/media/data.5a4f5875.svg",
     "static/media/earth.png": "/ecocart-website/static/media/earth.d17a0e8b.png",
     "static/media/expedia.png": "/ecocart-website/static/media/expedia.e989af19.png",
@@ -36,6 +37,8 @@
     "static/media/microsoft.png": "/ecocart-website/static/media/microsoft.33f66226.png",
     "static/media/nike.png": "/ecocart-website/static/media/nike.52c7e2f9.png",
     "static/media/overstock.png": "/ecocart-website/static/media/overstock.a12eb750.png",
+    "static/media/pin.svg": "/ecocart-website/static/media/pin.16c77343.svg",
+    "static/media/quote.svg": "/ecocart-website/static/media/quote.27486687.svg",
     "static/media/rewards.svg": "/ecocart-website/static/media/rewards.e6fa3092.svg",
     "static/media/samsung.png": "/ecocart-website/static/media/samsung.756606c3.png",
     "static/media/tree.png": "/ecocart-website/static/media/tree.e2b2395a.png",
@@ -47,8 +50,8 @@
   "entrypoints": [
     "static/js/runtime-main.04f7c4e9.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.05380ea6.chunk.js",
-    "static/css/main.4940b0b6.chunk.css",
-    "static/js/main.ae279adb.chunk.js"
+    "static/js/2.73d20682.chunk.js",
+    "static/css/main.07c2df69.chunk.css",
+    "static/js/main.80e29794.chunk.js"
   ]
 }

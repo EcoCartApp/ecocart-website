@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97215a3ec616b7a56d53ee3650f0a296",
+    "revision": "b7141ae8f7f06a27d4aa58f1af5d965c",
     "url": "/ecocart-website/index.html"
   },
   {
-    "revision": "74b6de60ac74a1c81008",
+    "revision": "1072b24e4914a0cb03bf",
     "url": "/ecocart-website/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "7af14a269c4bb55798af",
-    "url": "/ecocart-website/static/css/main.4940b0b6.chunk.css"
+    "revision": "b44809261059ff8abdb2",
+    "url": "/ecocart-website/static/css/main.07c2df69.chunk.css"
   },
   {
-    "revision": "74b6de60ac74a1c81008",
-    "url": "/ecocart-website/static/js/2.05380ea6.chunk.js"
+    "revision": "1072b24e4914a0cb03bf",
+    "url": "/ecocart-website/static/js/2.73d20682.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/ecocart-website/static/js/2.05380ea6.chunk.js.LICENSE.txt"
+    "url": "/ecocart-website/static/js/2.73d20682.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7af14a269c4bb55798af",
-    "url": "/ecocart-website/static/js/main.ae279adb.chunk.js"
+    "revision": "b44809261059ff8abdb2",
+    "url": "/ecocart-website/static/js/main.80e29794.chunk.js"
   },
   {
     "revision": "bef4e03ae3890871b29a",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f3f4153078085ae13c0540e80b95407b",
     "url": "/ecocart-website/static/media/control.f3f41530.svg"
+  },
+  {
+    "revision": "0d2c2233d7d3ea4f96dd170ea6590f60",
+    "url": "/ecocart-website/static/media/dane.0d2c2233.jfif"
   },
   {
     "revision": "5a4f5875f969ebed878a6488a7e90779",
@@ -114,6 +118,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a12eb7504dd64b12a8ea09b9bd7b89e4",
     "url": "/ecocart-website/static/media/overstock.a12eb750.png"
+  },
+  {
+    "revision": "16c7734307bb3d026e9a6641c3331508",
+    "url": "/ecocart-website/static/media/pin.16c77343.svg"
+  },
+  {
+    "revision": "2748668733ebf6fd13a626d1720db4f1",
+    "url": "/ecocart-website/static/media/quote.27486687.svg"
   },
   {
     "revision": "e6fa3092c26fa18657d11d2cc226db84",
