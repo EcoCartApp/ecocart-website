@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7141ae8f7f06a27d4aa58f1af5d965c",
+    "revision": "8b9a844e8a00ab6d0ee1013c5671f3eb",
     "url": "/ecocart-website/index.html"
   },
   {
-    "revision": "1072b24e4914a0cb03bf",
+    "revision": "8d1b4c68b024ea11a20e",
     "url": "/ecocart-website/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "b44809261059ff8abdb2",
-    "url": "/ecocart-website/static/css/main.07c2df69.chunk.css"
+    "revision": "93da19e12fefc70cbf7a",
+    "url": "/ecocart-website/static/css/main.48ae32b0.chunk.css"
   },
   {
-    "revision": "1072b24e4914a0cb03bf",
-    "url": "/ecocart-website/static/js/2.73d20682.chunk.js"
+    "revision": "8d1b4c68b024ea11a20e",
+    "url": "/ecocart-website/static/js/2.be33ecaa.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/ecocart-website/static/js/2.73d20682.chunk.js.LICENSE.txt"
+    "url": "/ecocart-website/static/js/2.be33ecaa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b44809261059ff8abdb2",
-    "url": "/ecocart-website/static/js/main.80e29794.chunk.js"
+    "revision": "93da19e12fefc70cbf7a",
+    "url": "/ecocart-website/static/js/main.9301849e.chunk.js"
   },
   {
     "revision": "bef4e03ae3890871b29a",
@@ -84,6 +84,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecocart-website/static/media/flowers.40119123.png"
   },
   {
+    "revision": "851171c3f962c13ac3b6fc48d388109a",
+    "url": "/ecocart-website/static/media/footer-bg.851171c3.svg"
+  },
+  {
     "revision": "5452cdd051fc99a4335bf69f1da6b20f",
     "url": "/ecocart-website/static/media/forest-project.5452cdd0.png"
   },
@@ -96,8 +100,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecocart-website/static/media/gold-standard.99b0e4e7.png"
   },
   {
-    "revision": "1031e29c7bb6f4c93460422f0130a1f9",
-    "url": "/ecocart-website/static/media/hero.1031e29c.png"
+    "revision": "915f7922f4e13385b53f176e17d5a2ac",
+    "url": "/ecocart-website/static/media/heart-icon.915f7922.svg"
+  },
+  {
+    "revision": "6cf3a650fabb5287f06a4f1094e2c1dd",
+    "url": "/ecocart-website/static/media/hero.6cf3a650.svg"
   },
   {
     "revision": "23d140d0c4b8f46c0dee963763bf6859",
