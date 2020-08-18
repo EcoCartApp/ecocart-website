@@ -1,0 +1,120 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  background-color: #262626;
+  height: 55vh;
+}
+
+.footer-content {
+  width: 75vw;
+}
+
+/* Image styles */
+.footer-logo {
+  display: flex;
+  width: 40vw;
+  flex-direction: column;
+  padding: 1.7em 0 0;
+  background: url(../img/footer-bg.svg) bottom left no-repeat;
+}
+
+.ecocart-logo {
+  height: auto;
+}
+
+.paper-airplane {
+  width: 30vw;
+  height: auto;
+}
+
+/* Resources and about section styles */
+.logo-resources-about {
+  display: flex;
+  height: 45vh;
+  border-bottom: 1px solid white;
+}
+
+.resources-about {
+  display: flex;
+  width: 35vw;
+  padding: 2.475em 0.938em 0.7em 3.2em;
+}
+
+.resources-about a {
+  cursor: pointer;
+  margin-bottom: 1em;
+  font-weight: 400;
+  font-size: 1.125em;
+  line-height: normal;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: 0;
+}
+
+.resources-about a:hover {
+  color: #00b04f;
+}
+
+.footer-resources,
+.footer-about {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
+}
+
+.resources-about h2 {
+  font-weight: 600;
+  font-size: 1.125em;
+  line-height: normal;
+  color: #00b050;
+  margin-bottom: 1em;
+}
+
+/* Social media and Shopify app store icon styles */
+.footer-underline {
+  color: #fff;
+  border-top: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 1em 0em;
+  padding-bottom: 0;
+}
+
+.footer-underline-col {
+  display: flex;
+  flex: 0 0 50%;
+}
+
+.footer-underline a {
+  display: block;
+  margin: 0 0.75em;
+  border: 0;
+}
+
+.footer-location-text, .footer-copyright-text {
+  font-weight: normal;
+  font-size: 1.125em;
+  line-height: normal;
+  color: #ffffff;
+}
+
+.footer-location-text {
+  display: flex;
+  align-items: center;
+  flex: 0 0 60%;
+}
+
+.footer-copyright-text {
+  text-align: right;
+  flex: 0 0 40%;
+}
+
+i.heart {
+  margin: 0px 5px;
+  display: inline-block;
+  background: url(../img/heart-icon.svg) center no-repeat;
+  background-size: contain;
+  width: 1.6em;
+  height: 1.3em;
+}

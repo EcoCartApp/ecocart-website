@@ -12,6 +12,7 @@ import Testimonial from "./components/Testimonial";
 import Video from "./components/Video";
 import ProjectBox from "./components/ProjectBox";
 import Button from "react-bootstrap/Button";
+import Footer from "./components/Footer";
 
 //MEDIA IMPORTS
 import works from "./videos/works.mp4";
@@ -160,6 +161,7 @@ const App = () => {
           <b>Add to Chrome</b> - It's Free
         </Button>
       </section>
+      <Footer />
     </div>
   );
 };
