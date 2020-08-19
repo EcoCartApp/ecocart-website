@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-content">
-        <div className="logo-resources-about">
+        <div className="logo-ecocart-businesses">
           <div className="footer-logo">
             <img
               className="ecocart-logo"
@@ -16,54 +16,9 @@ const Footer = () => {
               alt="ecocart logo"
             ></img>
           </div>
-          <div className="resources-about">
-            <div className="footer-resources">
-              <h2>Resources</h2>
-              <a
-                href="https://ecocart.io/contact-us/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Contact Us
-              </a>
-              <a
-                href="https://ecocart.io/how-it-works/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                How It Works
-              </a>
-              <a
-                href="https://admin.ecocart.io/registration/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Shopify App
-              </a>
-              <a
-                href="https://ecocart.io/blog/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Blog
-              </a>
-              <a
-                href="https://ecocart.io/our-projects/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Our Projects
-              </a>
-              <a
-                href="https://ecocart.io/faq"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                FAQs
-              </a>
-            </div>
-            <div className="footer-about">
-              <h2>About</h2>
+          <div className="ecocart-businesses">
+            <div className="footer-ecocart">
+              <h2>EcoCart</h2>
               <a
                 href="https://ecocart.io/about-us/"
                 target="_blank"
@@ -72,11 +27,11 @@ const Footer = () => {
                 About Us
               </a>
               <a
-                href="https://ecocart.io/contact-us/"
+                href="https://ecocart.io/blog/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Join Our Team
+                Blog
               </a>
               <a
                 href="https://ecocart.io/terms-of-service/"
@@ -91,6 +46,30 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 Privacy Policy
+              </a>
+              <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Help
+              </a>
+            </div>
+            <div className="footer-businesses">
+              <h2>For Businesses</h2>
+              <a
+                href="https://admin.ecocart.io/registration/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Shopify App
+              </a>
+              <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Become an Affiliate
               </a>
             </div>
           </div>

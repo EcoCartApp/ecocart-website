@@ -28,19 +28,19 @@
 }
 
 /* Resources and about section styles */
-.logo-resources-about {
+.logo-ecocart-businesses {
   display: flex;
   height: 45vh;
   border-bottom: 1px solid white;
 }
 
-.resources-about {
+.ecocart-businesses {
   display: flex;
   width: 35vw;
   padding: 2.475em 0.938em 0.7em 3.2em;
 }
 
-.resources-about a {
+.ecocart-businesses a {
   cursor: pointer;
   margin-bottom: 1em;
   font-weight: 400;
@@ -52,18 +52,18 @@
   border: 0;
 }
 
-.resources-about a:hover {
+.ecocart-businesses a:hover {
   color: #00b04f;
 }
 
-.footer-resources,
-.footer-about {
+.footer-ecocart,
+.footer-businesses {
   display: flex;
   flex-direction: column;
   flex: 0 0 50%;
 }
 
-.resources-about h2 {
+.ecocart-businesses h2 {
   font-weight: 600;
   font-size: 1.125em;
   line-height: normal;
