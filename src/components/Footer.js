@@ -119,7 +119,7 @@ const Footer = () => {
           </div>
           <div className="footer-underline-col">
             <div className="footer-location-text">
-              Made with <i className="heart"></i> in San Francisco, CA
+              <div>Made with <i className="heart"></i> in San Francisco, CA</div>
             </div>
             <div className="footer-copyright-text">
               All rights reserved<br></br>&copy; Ecocart 2020

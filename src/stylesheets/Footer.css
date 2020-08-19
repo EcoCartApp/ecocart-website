@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   background-color: #262626;
-  height: 55vh;
+  height: 57vh;
 }
 
 .footer-content {
@@ -111,7 +111,6 @@
 }
 
 i.heart {
-  margin: 0px 5px;
   display: inline-block;
   background: url(../img/heart-icon.svg) center no-repeat;
   background-size: contain;

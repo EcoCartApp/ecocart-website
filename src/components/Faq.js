@@ -21,7 +21,6 @@ export default class FaqBox extends Component {
   
    config = {
     animate: true,
-    arrowIcon: "v",
   };
   render() {
     return (
