@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ecocart-website/static/css/main.48ae32b0.chunk.css",
-    "main.js": "/ecocart-website/static/js/main.9301849e.chunk.js",
-    "main.js.map": "/ecocart-website/static/js/main.9301849e.chunk.js.map",
+    "main.css": "/ecocart-website/static/css/main.b828d2b6.chunk.css",
+    "main.js": "/ecocart-website/static/js/main.cf74b11e.chunk.js",
+    "main.js.map": "/ecocart-website/static/js/main.cf74b11e.chunk.js.map",
     "runtime-main.js": "/ecocart-website/static/js/runtime-main.04f7c4e9.js",
     "runtime-main.js.map": "/ecocart-website/static/js/runtime-main.04f7c4e9.js.map",
     "static/css/2.829c9cb5.chunk.css": "/ecocart-website/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.be33ecaa.chunk.js": "/ecocart-website/static/js/2.be33ecaa.chunk.js",
-    "static/js/2.be33ecaa.chunk.js.map": "/ecocart-website/static/js/2.be33ecaa.chunk.js.map",
+    "static/js/2.59e58b49.chunk.js": "/ecocart-website/static/js/2.59e58b49.chunk.js",
+    "static/js/2.59e58b49.chunk.js.map": "/ecocart-website/static/js/2.59e58b49.chunk.js.map",
     "index.html": "/ecocart-website/index.html",
-    "precache-manifest.a946f8fe74d5659b79d06a02e800f59a.js": "/ecocart-website/precache-manifest.a946f8fe74d5659b79d06a02e800f59a.js",
+    "precache-manifest.6405e54c24a7b7f85217192fb4159e3a.js": "/ecocart-website/precache-manifest.6405e54c24a7b7f85217192fb4159e3a.js",
     "service-worker.js": "/ecocart-website/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/ecocart-website/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.48ae32b0.chunk.css.map": "/ecocart-website/static/css/main.48ae32b0.chunk.css.map",
-    "static/js/2.be33ecaa.chunk.js.LICENSE.txt": "/ecocart-website/static/js/2.be33ecaa.chunk.js.LICENSE.txt",
+    "static/css/main.b828d2b6.chunk.css.map": "/ecocart-website/static/css/main.b828d2b6.chunk.css.map",
+    "static/js/2.59e58b49.chunk.js.LICENSE.txt": "/ecocart-website/static/js/2.59e58b49.chunk.js.LICENSE.txt",
     "static/media/UN-Sustainability-Goal-13.png": "/ecocart-website/static/media/UN-Sustainability-Goal-13.c0f2f644.png",
     "static/media/UN-Sustainability-Goal-14.png": "/ecocart-website/static/media/UN-Sustainability-Goal-14.7c2299b6.png",
     "static/media/UN-Sustainability-Goal-15.png": "/ecocart-website/static/media/UN-Sustainability-Goal-15.ecc0cbba.png",
@@ -33,7 +33,9 @@
     "static/media/glossier.png": "/ecocart-website/static/media/glossier.aec033ce.png",
     "static/media/gold-standard.png": "/ecocart-website/static/media/gold-standard.99b0e4e7.png",
     "static/media/Landing.css": "/ecocart-website/static/media/hero.6cf3a650.svg",
+    "static/media/how-it-works.mp4": "/ecocart-website/static/media/how-it-works.7074df06.mp4",
     "static/media/jcpenney.png": "/ecocart-website/static/media/jcpenney.23d140d0.png",
+    "static/media/logo.svg": "/ecocart-website/static/media/logo.3dbb7bc8.svg",
     "static/media/logo.png": "/ecocart-website/static/media/logo.a435fd68.png",
     "static/media/microsoft.png": "/ecocart-website/static/media/microsoft.33f66226.png",
     "static/media/nike.png": "/ecocart-website/static/media/nike.52c7e2f9.png",
@@ -45,14 +47,13 @@
     "static/media/tree.png": "/ecocart-website/static/media/tree.e2b2395a.png",
     "static/media/verified-carbon-offset.png": "/ecocart-website/static/media/verified-carbon-offset.d4e88a39.png",
     "static/media/water-project.png": "/ecocart-website/static/media/water-project.00d9dfb2.png",
-    "static/media/wind-project.png": "/ecocart-website/static/media/wind-project.eccc4046.png",
-    "static/media/works.mp4": "/ecocart-website/static/media/works.3d00d761.mp4"
+    "static/media/wind-project.png": "/ecocart-website/static/media/wind-project.eccc4046.png"
   },
   "entrypoints": [
     "static/js/runtime-main.04f7c4e9.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.be33ecaa.chunk.js",
-    "static/css/main.48ae32b0.chunk.css",
-    "static/js/main.9301849e.chunk.js"
+    "static/js/2.59e58b49.chunk.js",
+    "static/css/main.b828d2b6.chunk.css",
+    "static/js/main.cf74b11e.chunk.js"
   ]
 }
