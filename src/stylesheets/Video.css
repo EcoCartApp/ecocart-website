@@ -20,7 +20,7 @@
 
 .line-active {
   width: 2em;
-  border-left: 3px solid green;
+  border-left: 3px solid #00b050;
   height: 14vh;
   padding-right: 3em;
 }

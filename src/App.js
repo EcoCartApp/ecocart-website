@@ -15,7 +15,7 @@ import Button from "react-bootstrap/Button";
 import Footer from "./components/Footer";
 
 //MEDIA IMPORTS
-import works from "./videos/works.mp4";
+import howItWorks from "./videos/how-it-works.mp4";
 import tree from "./img/tree.png";
 import earth from "./img/earth.png";
 import waterProj from "./img/projects/water-project.png";
@@ -33,7 +33,7 @@ import energyGlobe from "./img/projects/Energy-Globe.jpg";
 import americanCarbon from "./img/projects/american-carbon-registry.jpg";
 import goldStandard from "./img/projects/gold-standard.png";
 import StarIcon from "mdi-react/StarIcon"; //https://www.npmjs.com/package/mdi-react
-import logo from "./img/logo.png";
+import logo from "./img/logo.svg";
 
 // STATIC IMPORTS
 import reviews from "./static/reviews";
@@ -50,7 +50,12 @@ const App = () => {
       <Landing ref={element} logo={logo} />
       <AffiliateStores />
       <section id="how-it-works">
-        <Video video={works} stepOne="1" stepTwo="4" stepThree="10"></Video>
+        <Video
+          video={howItWorks}
+          stepOne="1"
+          stepTwo="5"
+          stepThree="14"
+        ></Video>
       </section>
       <WhyEcocart />
 
@@ -147,18 +152,22 @@ const App = () => {
         <FaqBox faqs={faqs}></FaqBox>
         <br></br>
         <div class="container">
-          <a href="https://ecocart.io/faq/" target="_blank">
+          <a
+            href="https://ecocart.io/faq/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <b>More FAQs</b>
           </a>
         </div>
       </section>
 
       <section id="bottom">
-        <h1 style={{marginBottom: "3vh"}}>
+        <h1 style={{ marginBottom: "3vh" }}>
           Ready to start <br></br> shopping sustainably?
         </h1>
         <Button className="add-button" size="lg">
-          <b>Add to Chrome</b> - It's Free
+          <b>Add to Chrome</b> — It's Free!
         </Button>
       </section>
       <Footer />

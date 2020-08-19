@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+
 import "../stylesheets/Landing.css";
 
 const Landing = React.forwardRef((props, ref) => {
@@ -18,8 +18,9 @@ const Landing = React.forwardRef((props, ref) => {
             size="lg"
             href="https://google.com"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <b>Add to Chrome</b> - It's Free
+            <b>Add to Chrome</b> — It's Free!
           </a>
         </div>
         <a href="#how-it-works">

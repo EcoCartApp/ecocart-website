@@ -15,11 +15,11 @@ export default class ProjectBox extends Component {
       <div className="panel-group">
         <div className="panel panel-default">
           <div className="panel-heading">
-            <img id="project-photo" src={this.props.projectImg} alt=""></img>
+            <img id="project-photo" src={this.props.projectImg} alt="project"></img>
             <div id="heading-text" className="vertical-center">
               <h3 id="project-title">{this.props.title}</h3>
               <i>
-                <img src={pin} height="25px" width="25px"></img>
+                <img src={pin} height="25px" width="25px" alt="green pin"></img>
                 {this.props.location}
               </i>
             </div>

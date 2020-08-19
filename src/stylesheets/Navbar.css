@@ -1,5 +1,5 @@
 .navbar {
-  padding: 10px 50px;
+  padding: 20px 50px;
   position: absolute;
   z-index: 1000;
   width: 100%;
@@ -31,10 +31,9 @@
   background-color: #00b04f;
   border-color: #00b04f;
   font-size: 1em;
-  padding: 1em;
+  padding: 10px;
   margin-left: auto;
-  height: 60px;
-  width: 250px;
+  width: 260px;
 }
 
 .navbar-button:hover,

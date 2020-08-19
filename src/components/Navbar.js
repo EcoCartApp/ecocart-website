@@ -2,7 +2,7 @@
 // sticky effect found in "../hooks/useSticky.js"
 
 import React from "react";
-import logo from "../img/logo.png";
+import logo from "../img/logo.svg";
 import "../stylesheets/Navbar.css";
 import "../App.css";
 
@@ -12,8 +12,14 @@ const Navbar = ({ sticky }) => (
       {sticky ? (
         <div className="nav-row">
           <img src={logo} alt="logo" className="navbar--logo" />
-          <a className="btn navbar-button" size="small" href="https://google.com" target="_blank">
-            <strong>Add to Chrome</strong> - It's Free
+          <a
+            className="btn navbar-button"
+            size="small"
+            href="https://google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <strong>Add to Chrome</strong> — It's Free!
           </a>
         </div>
       ) : null}

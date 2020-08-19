@@ -12,9 +12,9 @@ function Testimonial(props) {
         return (
           <Carousel.Item>
             <div className="testimonial row">
-              <img className="avatar" src={review.avatar}></img>
+              <img className="avatar" src={review.avatar} alt="person"></img>
               <div className="text col">
-                <img src={quote} height="30px" width="30px"></img>
+                <img src={quote} height="30px" width="30px" alt="testimony"></img>
                 <p className="quote">{review.quote}</p>
                 <div className="row" style={{ marginLeft: "0px" }}>
                   <h3>— {review.author}</h3>
