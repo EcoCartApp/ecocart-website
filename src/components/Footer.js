@@ -65,7 +65,7 @@ const Footer = () => {
                 Shopify App
               </a>
               <a
-                href=""
+                href="mailto:hello@ecocart.io"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -77,13 +77,13 @@ const Footer = () => {
         <div className="footer-underline">
           <div className="footer-underline-col">
             <a
-              href="https://apps.shopify.com/ecocart"
+              href="https://www.instagram.com/ecocart.io/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src="https://ecocart.io/wp-content/uploads/2020/01/image9.svg"
-                alt="shopify logo"
+                src="https://ecocart.io/wp-content/themes/ecocart/images/instagram_logo.svg"
+                alt="instagram logo"
               ></img>
             </a>
             <a
@@ -104,16 +104,6 @@ const Footer = () => {
               <img
                 src="https://ecocart.io/wp-content/themes/ecocart/images/twitter_logo.svg"
                 alt="twitter logo"
-              ></img>
-            </a>
-            <a
-              href="https://www.instagram.com/ecocart.io/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="https://ecocart.io/wp-content/themes/ecocart/images/instagram_logo.svg"
-                alt="instagram logo"
               ></img>
             </a>
           </div>
