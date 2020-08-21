@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 // COMPONENT IMPORTS
 import Landing from "./components/Landing";
@@ -163,12 +164,14 @@ const App = () => {
       </section>
 
       <section id="bottom">
-        <h1 style={{ marginBottom: "3vh" }}>
-          Ready to start <br></br> shopping sustainably?
-        </h1>
-        <Button className="add-button" size="lg">
-          <b>Add to Chrome</b> — It's Free!
-        </Button>
+        <Container>
+          <h1 style={{ marginBottom: "3vh" }}>
+            Ready to start <br></br> shopping sustainably?
+          </h1>
+          <Button className="add-button" size="lg">
+            <b>Add to Chrome</b> — It's Free!
+          </Button>
+        </Container>
       </section>
       <Footer />
     </div>
