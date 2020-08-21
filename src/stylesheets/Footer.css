@@ -103,3 +103,10 @@ i.heart {
     height: 35vh;
   }
 }
+
+/* Hide footer on small devices */
+@media only screen and (max-width: 800px) {
+  .footer-component {
+    display: none;
+  }
+}

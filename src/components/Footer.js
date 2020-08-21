@@ -6,7 +6,7 @@ import "../stylesheets/Footer.css";
 
 const Footer = () => {
   return (
-    <div style={{ backgroundColor: "#262626" }}>
+    <div className="footer-component" style={{ backgroundColor: "#262626" }}>
       <Container>
         <Row>
           <Col className="no-gutters" sm={12}>
