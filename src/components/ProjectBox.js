@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Col } from "react-bootstrap";
 import pin from "../img/pin.svg";
 import "../App.css";
 import "../stylesheets/ProjectBox.css";
@@ -12,13 +13,17 @@ export default class ProjectBox extends Component {
   }
   render() {
     return (
-      <div className="panel-group">
+      <Col className="panel-group my-3" xl={4}>
         <div className="panel panel-default">
-          <div className="panel-heading">
-            <img id="project-photo" src={this.props.projectImg} alt="project"></img>
+          <div className="panel-heading p-4">
+            <img
+              id="project-photo"
+              src={this.props.projectImg}
+              alt="project"
+            ></img>
             <div id="heading-text" className="vertical-center">
               <h3 id="project-title">{this.props.title}</h3>
-              <i>
+              <i style={{ fontSize: "14px" }}>
                 <img src={pin} height="25px" width="25px" alt="green pin"></img>
                 {this.props.location}
               </i>
@@ -27,11 +32,13 @@ export default class ProjectBox extends Component {
 
           <div
             className={
-              this.state.open ? "panel-collapse" : "panel-collapse panel-close"
+              this.state.open
+                ? "panel-collapse p-4"
+                : "panel-collapse panel-close"
             }
           >
             <div className="project-bullets">
-              <ul>
+              <ul style={{ paddingLeft: "24px" }}>
                 {this.props.bullets.map((value, index) => {
                   return <li key={index}>{value}</li>;
                 })}
@@ -45,7 +52,7 @@ export default class ProjectBox extends Component {
                 );
               })}
             </div>
-            <h4 className="box-label">Sustainable Devlopment</h4>
+            <h4 className="box-label">Sustainable Development</h4>
             <div className="project-images">
               {this.props.developments.map((value, index) => {
                 return <img className="sd-image" src={value} alt=""></img>;
@@ -60,13 +67,13 @@ export default class ProjectBox extends Component {
               }.bind(this)}
             >
               {this.state.open ? "Hide " : "Learn more "}
-              <span style={{fontSize: "0.9em"}}>
+              <span style={{ fontSize: "0.9em" }}>
                 {this.state.open ? <>&and;</> : <>&or;</>}
               </span>
             </a>
           </div>
         </div>
-      </div>
+      </Col>
     );
   }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 // COMPONENT IMPORTS
 import Landing from "./components/Landing";
@@ -91,46 +91,48 @@ const App = () => {
         </div>
 
         {/* Projects EcoCart is involved with */}
-        <div className="project-boxes">
-          <ProjectBox
-            projectImg={forestProj}
-            title="Protecting forests"
-            location="Massachusetts"
-            bullets={[
-              "Protects a Spruce forest in Massachusetts that captures over 100,000 metric tonnes of harmful carbon dioxide every year",
-              "Protects habitat for a variety of threatened mammals, firs, and reptiles",
-              "Experienced forest management project operator",
-            ]}
-            verifications={[americanCarbon, verifiedCarbon]}
-            developments={[un6, un13, un14, un15]}
-          ></ProjectBox>
+        <Container className="project-boxes">
+          <Row>
+            <ProjectBox
+              projectImg={forestProj}
+              title="Protecting forests"
+              location="Massachusetts"
+              bullets={[
+                "Protects a Spruce forest in Massachusetts that captures over 100,000 metric tonnes of harmful carbon dioxide every year",
+                "Protects habitat for a variety of threatened mammals, firs, and reptiles",
+                "Experienced forest management project operator",
+              ]}
+              verifications={[americanCarbon, verifiedCarbon]}
+              developments={[un6, un13, un14, un15]}
+            ></ProjectBox>
 
-          <ProjectBox
-            projectImg={waterProj}
-            title="Providing clean water"
-            location="Cambodia"
-            bullets={[
-              "Reduces air pollution while protecting forests and local ecosystems",
-              "Creates jobs and economic growth in under-served communities",
-              "Reduces child illnesses and deaths caused by contaminated water and indoor pollution",
-            ]}
-            verifications={[energyGlobe, goldStandard]}
-            developments={[un6, un8, un13, un15]}
-          ></ProjectBox>
+            <ProjectBox
+              projectImg={waterProj}
+              title="Providing clean water"
+              location="Cambodia"
+              bullets={[
+                "Reduces air pollution while protecting forests and local ecosystems",
+                "Creates jobs and economic growth in under-served communities",
+                "Reduces child illnesses and deaths caused by contaminated water and indoor pollution",
+              ]}
+              verifications={[energyGlobe, goldStandard]}
+              developments={[un6, un8, un13, un15]}
+            ></ProjectBox>
 
-          <ProjectBox
-            projectImg={windProj}
-            title="Creating wind energy"
-            location="Turkey"
-            bullets={[
-              "Displaces fossil fuel-based energy",
-              "Diversifies the country’s energy balance and helps address demand supply gaps",
-              "Alleviates poverty in the local community by providing construction and operations jobs",
-            ]}
-            verifications={[goldStandard]}
-            developments={[un7, un8, un9, un13]}
-          ></ProjectBox>
-        </div>
+            <ProjectBox
+              projectImg={windProj}
+              title="Creating wind energy"
+              location="Turkey"
+              bullets={[
+                "Displaces fossil fuel-based energy",
+                "Diversifies the country’s energy balance and helps address demand supply gaps",
+                "Alleviates poverty in the local community by providing construction and operations jobs",
+              ]}
+              verifications={[goldStandard]}
+              developments={[un7, un8, un9, un13]}
+            ></ProjectBox>
+          </Row>
+        </Container>
       </section>
 
       {/* Review from customers */}
