@@ -1,8 +1,9 @@
 #why-ecocart {
   background-color: #EAF6FA;
-  height: 68vh;
   text-align: center;
   padding: 5vh 0;
+  display: flex;
+  align-items: center;
 }
 
 .reason-container {
@@ -30,6 +31,7 @@
 
 .reason-title {
   margin: 13px;
+  font-weight: 600;
 }
 
 .reason-description {

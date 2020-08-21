@@ -5,37 +5,42 @@ import data from "../img/data.svg";
 import control from "../img/control.svg";
 
 import "../stylesheets/WhyEcocart.css";
+import { Container, Row, Col } from "react-bootstrap";
 
 const WhyEcocart = () => {
   return (
-    <section id="why-ecocart">
-      <h1>Why EcoCart?</h1>
-      <div className="reason-container">
-        <div className="reason">
-          <img src={rewards} className="reason-icon" alt="reason icon"></img>
-          <h2 className="reason-title">Rewards You'll Love</h2>
-          <p className="reason-description">
-            Fight climate change and earn gift <br className="line-break"></br> cards to your favorite
-            stores.
-          </p>
-        </div>
-        <div className="reason">
+    <div id="why-ecocart">
+    <Container>
+      <Row className="justify-content-center mb-3">
+        <h1>Why EcoCart?</h1>
+      </Row>
+      <Row>
+        <Col className="mb-4" md={12} lg={4}>
           <img src={data} className="reason-icon" alt="reason icon"></img>
-          <h2 className="reason-title">We Don't Sell Your Data</h2>
+          <h3 className="reason-title">We Don't Sell Your Data</h3>
           <p className="reason-description">
-            We're in the business of saving the <br className="line-break"></br> planet, not violating
+            We're in the business of saving the planet, not violating
             your privacy.
           </p>
-        </div>
-        <div className="reason">
-          <img src={control} className="reason-icon control-icon" alt="reason icon"></img>
-          <h2 className="reason-title">You're in Control</h2>
+        </Col>
+        <Col className="mb-4" md={12} lg={4}>
+          <img src={rewards} className="reason-icon" alt="reason icon"></img>
+          <h3 className="reason-title">Rewards You'll Love</h3>
           <p className="reason-description">
-            Support the project that inspires you <br className="line-break"></br> most.
+            Fight climate change and earn gift cards to your favorite
+            stores.
           </p>
-        </div>
-      </div>
-    </section>
+        </Col>
+        <Col className="mb-4" md={12} lg={4}>
+          <img src={control} className="reason-icon control-icon" alt="reason icon"></img>
+          <h3 className="reason-title">You're in Control</h3>
+          <p className="reason-description">
+            Support the project that inspires you most.
+          </p>
+        </Col>
+      </Row>
+    </Container>
+    </div>
   );
 };
 

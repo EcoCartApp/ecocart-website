@@ -54,7 +54,7 @@ const Footer = () => {
                   >
                     Privacy Policy
                   </a>
-                  <a href="" target="_blank" rel="noopener noreferrer">
+                  <a href="https://google.com/" target="_blank" rel="noopener noreferrer">
                     Help
                   </a>
                 </div>
