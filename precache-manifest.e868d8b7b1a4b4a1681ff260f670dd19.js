@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc5b6d3cde99f379953421f51f8af1f4",
+    "revision": "3b562516b1c502d8905f5df4dedd0d55",
     "url": "/ecocart-website/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecocart-website/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "5f644d4188764f581a9c",
-    "url": "/ecocart-website/static/css/main.4162296b.chunk.css"
+    "revision": "5db697f1d0a5ff03da07",
+    "url": "/ecocart-website/static/css/main.7d4d4829.chunk.css"
   },
   {
     "revision": "7301712f066d05f60e75",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecocart-website/static/js/2.be6c0624.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5f644d4188764f581a9c",
-    "url": "/ecocart-website/static/js/main.6f36702c.chunk.js"
+    "revision": "5db697f1d0a5ff03da07",
+    "url": "/ecocart-website/static/js/main.0042df3b.chunk.js"
   },
   {
     "revision": "bef4e03ae3890871b29a",
@@ -72,12 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecocart-website/static/media/american-carbon-registry.6680f5f7.jpg"
   },
   {
-    "revision": "1eba6b27d80ee90f94316454fde9b65f",
-    "url": "/ecocart-website/static/media/bloomingdale.1eba6b27.png"
-  },
-  {
-    "revision": "2dcbb7713002931cb7dfed4601fdceb5",
-    "url": "/ecocart-website/static/media/colehaan.2dcbb771.png"
+    "revision": "aaca3f0e746d5531ae8e4e6f2ce0c7ef",
+    "url": "/ecocart-website/static/media/casper.aaca3f0e.png"
   },
   {
     "revision": "f3f4153078085ae13c0540e80b95407b",
@@ -92,12 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecocart-website/static/media/earth.d17a0e8b.png"
   },
   {
-    "revision": "e989af19af04658104a7642432df1cc8",
-    "url": "/ecocart-website/static/media/expedia.e989af19.png"
-  },
-  {
-    "revision": "401191239256602687278e14c23bdc06",
-    "url": "/ecocart-website/static/media/flowers.40119123.png"
+    "revision": "f300a4c36821dc70d836b872512ae11b",
+    "url": "/ecocart-website/static/media/foot_locker.f300a4c3.png"
   },
   {
     "revision": "851171c3f962c13ac3b6fc48d388109a",
@@ -108,8 +100,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecocart-website/static/media/forest-project.5452cdd0.png"
   },
   {
-    "revision": "aec033cec95a8c148f0d3c44a3225643",
-    "url": "/ecocart-website/static/media/glossier.aec033ce.png"
+    "revision": "58413095f86a336b5069a53c91167737",
+    "url": "/ecocart-website/static/media/freshly.58413095.png"
+  },
+  {
+    "revision": "a5678d121211fd9b0eea2061e91ea21c",
+    "url": "/ecocart-website/static/media/glossier.a5678d12.png"
   },
   {
     "revision": "99b0e4e73bad882238b9accef2ef7435",
@@ -128,8 +124,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecocart-website/static/media/how-it-works.3a44802c.mp4"
   },
   {
-    "revision": "23d140d0c4b8f46c0dee963763bf6859",
-    "url": "/ecocart-website/static/media/jcpenney.23d140d0.png"
+    "revision": "5cb91dcfe41afa98c6b2f54380deeb4b",
+    "url": "/ecocart-website/static/media/kohls.5cb91dcf.png"
+  },
+  {
+    "revision": "2dd6092bcee66caba58c34cf3a5f3af6",
+    "url": "/ecocart-website/static/media/levis.2dd6092b.png"
   },
   {
     "revision": "3dbb7bc892412dddccf49db5949053b4",
@@ -140,16 +140,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecocart-website/static/media/logo.a435fd68.png"
   },
   {
-    "revision": "33f662261538c49a03cb8567bf53e49e",
-    "url": "/ecocart-website/static/media/microsoft.33f66226.png"
+    "revision": "2feebcff67a93a78906b013846efeaff",
+    "url": "/ecocart-website/static/media/nixon.2feebcff.png"
   },
   {
-    "revision": "52c7e2f99159169a3d2a4b34fc47de6a",
-    "url": "/ecocart-website/static/media/nike.52c7e2f9.png"
-  },
-  {
-    "revision": "a12eb7504dd64b12a8ea09b9bd7b89e4",
-    "url": "/ecocart-website/static/media/overstock.a12eb750.png"
+    "revision": "54b322cf3feafbe24df0931b5fdb949b",
+    "url": "/ecocart-website/static/media/petco.54b322cf.png"
   },
   {
     "revision": "16c7734307bb3d026e9a6641c3331508",
@@ -164,12 +160,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecocart-website/static/media/rewards.e6fa3092.svg"
   },
   {
-    "revision": "756606c3779cfa8099d03cddda82f698",
-    "url": "/ecocart-website/static/media/samsung.756606c3.png"
-  },
-  {
     "revision": "e2b2395a1dc832a64325094859660b3e",
     "url": "/ecocart-website/static/media/tree.e2b2395a.png"
+  },
+  {
+    "revision": "e6480ab5180b7f511fde8e19546c6d96",
+    "url": "/ecocart-website/static/media/ulta_beauty.e6480ab5.png"
+  },
+  {
+    "revision": "2a5bfdcbf98d317c691a9001d8a4278f",
+    "url": "/ecocart-website/static/media/vans.2a5bfdcb.png"
   },
   {
     "revision": "d4e88a39b0f04a9fd0794099d2c31c35",
