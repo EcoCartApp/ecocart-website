@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="footer-component" style={{ backgroundColor: "#262626" }}>
       <Container>
-        <Row>
+        <Row className="no-gutters">
           <Col className="no-gutters" sm={12}>
             <Row className="logo-ecocart-businesses no-gutters">
               <Col
@@ -81,7 +81,7 @@ const Footer = () => {
             </Row>
           </Col>
         </Row>
-        <Row>
+        <Row className="no-gutters">
           <Col className="no-gutters" sm={12}>
             <div className="footer-underline">
               <Col className="footer-underline-col no-gutters" sm={4}>
