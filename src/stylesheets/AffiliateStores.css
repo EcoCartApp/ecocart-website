@@ -23,52 +23,52 @@
 
 
 /* Store positioning */
-#nike {
+#foot-locker {
   bottom: -200px;
   left: 300px;
 }
 
-#flowers {
+#freshly {
   bottom: -300px;
   left: 250px;
 }
 
-#colehaan {
+#glossier {
   bottom: -380px;
   left: 340px;
 }
 
-#overstock {
+#casper {
   bottom: -500px;
   left: 220px;
 }
 
-#microsoft {
+#kohls {
   bottom: -550px;
   left: 350px;
 }
 
-#expedia {
+#levis {
   bottom: -200px;
   left: 1100px;
 }
 
-#glossier {
+#nixon {
   bottom: -300px;
   left: 1150px;
 }
 
-#bloomingdale {
+#petco {
   bottom: -380px;
   left: 1050px;
 }
 
-#samsung {
+#ulta_beauty {
   bottom: -480px;
   left: 1160px;
 }
 
-#jcpenney {
+#vans {
   bottom: -550px;
   left: 1030px;
 }
@@ -84,107 +84,165 @@
   }
 }
 
-/* 1024 x 768 styles */
-@media only screen and (min-width: 400px) and (max-width: 1030px) {
-  #nike {
-    bottom: -200px;
-    left: 105px;
+/* 800 x 600 styles */
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+  #foot-locker {
+    bottom: -150px;
+    left: 90px;
   }
   
-  #flowers {
-    bottom: -300px;
-    left: 55px;
-  }
-  
-  #colehaan {
-    bottom: -380px;
-    left: 145px;
-  }
-  
-  #overstock {
-    bottom: -500px;
-    left: 25px;
-  }
-  
-  #microsoft {
-    bottom: -550px;
-    left: 155px;
-  }
-  
-  #expedia {
-    bottom: -200px;
-    left: 830px;
+  #freshly {
+    bottom: -165px;
+    left: 355px;
   }
   
   #glossier {
+    bottom: -140px;
+    left: 580px;
+  }
+  
+  #casper {
+    bottom: -450px;
+    left: 125px;
+  }
+  
+  #kohls {
+    bottom: -400px;
+    left: 340px;
+  }
+  
+  #levis {
+    bottom: -460px;
+    left: 540px;
+  }
+  
+  /* Hide these icons on small screens */
+  #nixon {
+    display: none;
     bottom: -300px;
     left: 890px;
   }
   
-  #bloomingdale {
+  #petco {
+    display: none;
     bottom: -380px;
     left: 820px;
   }
   
-  #samsung {
+  #ulta_beauty {
+    display: none;
     bottom: -480px;
     left: 890px;
   }
   
-  #jcpenney {
+  #vans {
+    display: none;
     bottom: -550px;
     left: 860px;
   }
 }
 
+/* 1024 x 768 styles */
+@media only screen and (min-width: 900px) and  (max-width: 1025px) {
+  #foot-locker {
+    bottom: -200px;
+    left: 90px;
+  }
+  
+  #freshly {
+    bottom: -300px;
+    left: 40px;
+  }
+  
+  #glossier {
+    bottom: -380px;
+    left: 130px;
+  }
+  
+  #casper {
+    bottom: -500px;
+    left: 10px;
+  }
+  
+  #kohls {
+    bottom: -550px;
+    left: 140px;
+  }
+  
+  #levis {
+    bottom: -200px;
+    left: 840px;
+  }
+  
+  #nixon {
+    bottom: -300px;
+    left: 900px;
+  }
+  
+  #petco {
+    bottom: -380px;
+    left: 800px;
+  }
+  
+  #ulta_beauty {
+    bottom: -460px;
+    left: 890px;
+  }
+  
+  #vans {
+    bottom: -550px;
+    left: 870px;
+  }
+}
+
 /* 1280 x 800 styles */
 @media only screen and (min-width: 1030px) and  (max-width: 1300px) {
-  #nike {
+  #foot-locker {
     bottom: -200px;
     left: 220px;
   }
   
-  #flowers {
+  #freshly {
     bottom: -300px;
     left: 170px;
   }
   
-  #colehaan {
+  #glossier {
     bottom: -380px;
     left: 260px;
   }
   
-  #overstock {
+  #casper {
     bottom: -500px;
     left: 140px;
   }
   
-  #microsoft {
+  #kohls {
     bottom: -550px;
     left: 270px;
   }
   
-  #expedia {
+  #levis {
     bottom: -200px;
     left: 1000px;
   }
   
-  #glossier {
+  #nixon {
     bottom: -300px;
     left: 1060px;
   }
   
-  #bloomingdale {
+  #petco {
     bottom: -380px;
     left: 960px;
   }
   
-  #samsung {
+  #ulta_beauty {
     bottom: -480px;
     left: 1060px;
   }
   
-  #jcpenney {
+  #vans {
     bottom: -550px;
     left: 930px;
   }
@@ -205,52 +263,52 @@
     width: 125px;
   }
 
-  #nike {
+  #foot-locker {
     bottom: -300px;
     left: 360px;
   }
   
-  #flowers {
+  #freshly {
     bottom: -430px;
     left: 310px;
   }
   
-  #colehaan {
+  #glossier {
     bottom: -530px;
     left: 400px;
   }
   
-  #overstock {
+  #casper {
     bottom: -670px;
     left: 280px;
   }
   
-  #microsoft {
+  #kohls {
     bottom: -760px;
     left: 410px;
   }
   
-  #expedia {
+  #levis {
     bottom: -300px;
     left: 1420px;
   }
   
-  #glossier {
+  #nixon {
     bottom: -430px;
     left: 1520px;
   }
   
-  #bloomingdale {
+  #petco {
     bottom: -520px;
     left: 1380px;
   }
   
-  #samsung {
+  #ulta_beauty {
     bottom: -630px;
     left: 1520px;
   }
   
-  #jcpenney {
+  #vans {
     bottom: -750px;
     left: 1440px;
   }
