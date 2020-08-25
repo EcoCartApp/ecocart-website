@@ -10,6 +10,12 @@ import Eli from "../img/testimonials/Eli.png";
 
 const reviews = [
   {
+    avatar: Sarah,
+    quote:
+      "Fighting climate change for free while shopping at my favorite stores was a no-brainer.",
+    author: "Sarah",
+  },
+  {
     avatar: Jay,
     quote:
     "Love this app! I don’t have to do anything and EcoCart offsets the environmental impact of my orders.",
@@ -22,6 +28,12 @@ const reviews = [
     author: "Kenneth",
   },
   {
+    avatar: Eli,
+    quote:
+      "I love that I can choose which project to support. I know exactly where and how I’m making an impact.",
+    author: "Eli",
+  },
+  {
     avatar: Mariah,
     quote:
       "I’m always looking for ways to reduce my carbon footprint. Now I can just by clicking a button.",
@@ -32,19 +44,7 @@ const reviews = [
     quote:
       "This is definitely the easiest way to help save the planet doing what I do every day anyway!",
     author: "Rebecca",
-  },
-  {
-    avatar: Sarah,
-    quote:
-      "Fighting climate change for free while shopping at my favorite stores was a no-brainer.",
-    author: "Sarah",
-  },
-  {
-    avatar: Eli,
-    quote:
-      "I love that I can choose which project to support. I know exactly where and how I’m making an impact.",
-    author: "Eli",
-  },
+  }
 ];
 
 export default reviews;
