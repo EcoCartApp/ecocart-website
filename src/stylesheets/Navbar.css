@@ -3,6 +3,7 @@
   position: absolute;
   z-index: 1000;
   width: 100%;
+  max-width: 100vw;
 }
 
 .navbar--logo-holder {

@@ -59,7 +59,7 @@ export default class ProjectBox extends Component {
               })}
             </div>
           </div>
-          <div className="center">
+          <div className="center mb-3">
             <a
               className="toggle-expand"
               onClick={function () {

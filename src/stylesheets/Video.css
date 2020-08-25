@@ -46,3 +46,35 @@
 .row {
   width: 100%;
 }
+
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 35px;
+  width: 100%;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 1030px) {
+  .video-container {
+    display: none;
+  }
+
+  .step {
+    width: initial;
+  }
+
+  .steps-container {
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .line {
+    padding-right: 1em;
+  }
+}
+
+/* * {
+  border: 1px solid red;
+} */

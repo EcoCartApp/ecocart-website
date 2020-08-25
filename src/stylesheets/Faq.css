@@ -14,3 +14,7 @@
 .expanded {
   color: #00b04f !important;
 }
+
+.faq-row div:last-of-type {
+  width: 85%;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 // COMPONENT IMPORTS
 import Landing from "./components/Landing";
@@ -62,33 +62,44 @@ const App = () => {
 
       {/* Impact section */}
       <section id="impact">
-        <h1 className="center">EcoCart community impact</h1>
-        <div className="impact-box-container">
-          <ImpactBox
-            start={0}
-            count={4123477}
-            duration={4}
-            subtitle={
-              <>
-                lbs of CO<sub>2</sub> offset
-              </>
-            }
-            icon={earth}
-          ></ImpactBox>
-          <div class="spacer"></div>
-          <ImpactBox
-            start={0}
-            count={8247}
-            duration={3}
-            subtitle="trees saved"
-            icon={tree}
-          ></ImpactBox>
-        </div>
-        <div className="impact-subtitle-container">
-          <h2 className="center impact-sub-heading">
-            <span>We do this by...</span>
-          </h2>
-        </div>
+        <Container>
+          <Row className="d-flex justify-content-center no-gutters">
+            <h1>EcoCart community impact</h1>
+          </Row>
+          <Row className="d-flex justify-content-center no-gutters flex-wrap">
+            <div className="d-flex justify-content-center impact-box-container flex-md-row flex-column">
+              <ImpactBox
+                start={0}
+                count={4123477}
+                duration={4}
+                subtitle={
+                  <>
+                    lbs of CO<sub>2</sub> offset
+                  </>
+                }
+                icon={earth}
+              ></ImpactBox>
+              <ImpactBox
+                start={0}
+                count={8247}
+                duration={3}
+                subtitle="trees saved"
+                icon={tree}
+              ></ImpactBox>
+            </div>
+          </Row>
+          <Row className="no-gutters">
+            <Col style={{ borderTop: "1px solid black" }}></Col>
+            <Col xs={6} sm={4}>
+              <div className="impact-subtitle-container">
+                <h2 className="center impact-sub-heading">
+                  <span>We do this by...</span>
+                </h2>
+              </div>
+            </Col>
+            <Col style={{ borderTop: "1px solid black" }}></Col>
+          </Row>
+        </Container>
 
         {/* Projects EcoCart is involved with */}
         <Container className="project-boxes">

@@ -70,7 +70,7 @@ export default class Video extends Component {
           />
         </div>
 
-        <div style={{display: "flex", flexDirection: "column", justifyContent: "center", marginLeft: "35px", width: "100%"}}>
+        <div className="steps-container">
           <h1 id="title"> How it works</h1>
           <div id="steps">
             <div

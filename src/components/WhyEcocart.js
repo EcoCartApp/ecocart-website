@@ -10,11 +10,11 @@ import { Container, Row, Col } from "react-bootstrap";
 const WhyEcocart = () => {
   return (
     <div id="why-ecocart">
-    <Container>
-      <Row className="justify-content-center mb-3">
+    <Container className="px-4">
+      <Row className="justify-content-center mb-3 no-gutters">
         <h1>Why EcoCart?</h1>
       </Row>
-      <Row>
+      <Row className="no-gutters">
         <Col className="mb-4" md={12} lg={4}>
           <img src={data} className="reason-icon" alt="reason icon"></img>
           <h3 className="reason-title">We Don't Sell Your Data</h3>
